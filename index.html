@@ -1,0 +1,130 @@
+<!-- =========================================================
+STEP 1: Add the required HTML5 skeleton
+========================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emily Stoll | Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!-- =========================================================
+    STEP 2: Build the “top area” (site name + navigation) using simple HTML
+    ========================================================= -->
+  <header class="site-header">
+  <div class="header-inner container">
+    <p class="brand">Emily Stoll<span class="dot">.</span></p>
+   <nav class="site-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#featured">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+
+    <!-- =========================================================
+    STEP 3: Hero section + “Get Started button” as a link
+    ========================================================= -->
+<section class="hero">
+  <div class="hero-content container">
+    <h1>Emily Stoll</h1>
+    <p class="hero-subhead">University of Wisconsin-Madison | Consumer Behavior &amp; Marketplace Studies</p>
+    <a href="#featured" class="btn btn-dark">Get Started</a>
+  </div>
+</section>
+    
+
+    <!-- =========================================================
+    STEP 4: Features section (3 blocks) + featured content section
+    ========================================================= -->
+<section class="features">
+  <div class="features-grid container">
+    <div class="feature">
+      <h2>Consumer Insights</h2>
+      <p>I'm drawn to the question of why people make the choices they do. My coursework and internships have focused on translating consumer behavior into actionable strategy.</p>
+    </div>
+
+    <div class="feature">
+      <h2>Brand &amp; PR Experience</h2>
+      <p>From influencer outreach at GSPR to representing Monster Energy on campus, I've built hands-on experience connecting brands with the people who matter most to them.</p>
+    </div>
+
+    <div class="feature">
+      <h2>Well-Rounded Foundation</h2>
+      <p>Certificates in Digital Media Analytics, Entrepreneurship, Digital Studies, and Business give me a versatile skill set spanning strategy, data, and innovation.</p>
+    </div>
+  </div>
+</section>
+
+<section class="featured" id="featured">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-lede">I'm a senior at the University of Wisconsin-Madison studying Consumer Behavior and Marketplace Studies, with certificates in Entrepreneurship, Digital Media Analytics, Digital Studies, and Business. I've gained hands-on experience across PR, influencer marketing, and brand ambassadorship — from securing influencer partnerships at GSPR to representing Monster Energy on campus. As I look ahead to my senior year, I'm excited to apply my curiosity about consumer decision-making to a career where understanding people drives results.</p>
+          <img src="images/headshot.jpg" alt="Headshot of Emily Stoll">
+        </div>
+      </section>
+
+      <!-- =========================================================
+      STEP 5: Two secondary content blocks + CTA section
+      ========================================================= -->
+      <section class="secondary" id="experience">
+        <div class="secondary-grid container">
+          <article class="card">
+            <div class="card-text">
+              <h2>GSPR — Social Media &amp; PR Intern</h2>
+              <p>At Godfrey Social Public Relations, I built targeted media and influencer lists, identifying 100+ journalists and 200+ influencers, and led outreach that secured responses from the majority of 200+ influencer contacts.</p>
+            </div>
+            <div class="card-image img-gspr" role="img" aria-label="Godfrey Social Public Relations logo"></div>
+          </article>
+
+          <article class="card">
+            <div class="card-text">
+              <h2>Monster Energy — Collegiate Ambassador</h2>
+              <p>Over two years, I've planned and executed 13+ campus sampling events, engaging 1,500+ students and translating consumer feedback into insights for regional management.</p>
+            </div>
+            <div class="card-image img-monster" role="img" aria-label="Monster Energy campus sampling table setup"></div>
+          </article>
+        </div>
+      </section>
+
+<section class="cta" id="contact">
+        <div class="cta-inner container">
+          <h2>Heard enough?</h2>
+          <p>Let's connect — I'd love to talk about how my background in consumer behavior and marketing can bring value to your team.</p>
+          <a href="mailto:emilykstoll1@gmail.com" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </section>
+
+    <!-- =========================================================
+    STEP 6: Footer
+    ========================================================= -->
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner container">
+        <div class="footer-left">
+          <p>&copy; 2026 Emily Stoll. All rights reserved.</p>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h3>Connect</h3>
+            <a href="https://www.linkedin.com/in/emilykstoll">LinkedIn</a>
+            <a href="mailto:emilykstoll1@gmail.com">Email</a>
+            <a href="resume.pdf">Resume (PDF)</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
